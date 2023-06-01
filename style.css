@@ -1,0 +1,239 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:  1px solid red ; */
+}
+
+body { 
+   
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ justify-content: center;
+   
+
+
+}
+h1 {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    font-style: bold;
+    background: #2323CF;
+    background: radial-gradient(circle farthest-side at center center, #2323CF 15%, #000000 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+
+}
+.main-div{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(77, 170, 170);
+    text-align: center;
+    padding:  30px 0px;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ border: 2px solid black;
+ -webkit-box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+-moz-box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+position: relative;
+}
+ p {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: blanchedalmond;
+    padding: 0px 20px;
+}
+.author { 
+
+    width: auto;
+    position: absolute ;
+    bottom: 10% ;
+    right: 10%;
+    font-size: 1.5rem;
+  color:rgb(21, 21, 41);
+    border: none;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.button-class {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+   
+ 
+
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(15, 15, 56);
+    color: blanchedalmond;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    border-radius: 12px;
+    
+ 
+}
+
+@media (max-width:480px){
+    h1 {
+        font-size: 1rem;
+        font-family: 'Dancing Script', cursive;
+        font-style: bold;
+        background: #2323CF;
+        background: radial-gradient(circle farthest-side at center center, #2323CF 15%, #000000 85%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+    
+    }
+    p {
+        font-size: 12px;
+        font-family: 'Dancing Script', cursive;
+        color: blanchedalmond;
+        padding: 0px 20px;
+    }
+    .main-div{
+        width: 50%;
+        height: 50%;
+        background-color: rgb(77, 170, 170);
+        text-align: center;
+        padding:  30px 0px;
+        display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     border: 2px solid black;
+     -webkit-box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+    -moz-box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+    box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+    position: relative;
+    }
+
+
+    .author { 
+
+        width: auto;
+        position: absolute ;
+        bottom: 10% ;
+        right: 10%;
+        font-size: 12px;
+      color:rgb(21, 21, 41);
+        border: none;
+    
+    }
+     
+    .button-class {
+        width: 40%;
+        height: 25px;
+        border: none;
+        outline: none;
+       }
+
+    button {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(15, 15, 56);
+        color: blanchedalmond;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1rem;
+        border-radius: 12px;
+        
+     
+    }
+
+
+
+   
+}
+
+
+@media (max-width:900px){
+
+    h1 {
+        font-size: 2rem;
+        font-family: 'Dancing Script', cursive;
+        font-style: bold;
+        background: #2323CF;
+        background: radial-gradient(circle farthest-side at center center, #2323CF 15%, #000000 85%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+    
+    }
+
+    .main-div{
+        width: 70%;
+        height: 50%;
+        background-color: rgb(77, 170, 170);
+        text-align: center;
+        padding:  30px 0px;
+        display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     border: 2px solid black;
+     -webkit-box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+    -moz-box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+    box-shadow: 26px 24px 42px 0px rgba(5,4,5,0.69);
+    position: relative;
+    }
+
+
+    .author { 
+
+        width: auto;
+        position: absolute ;
+        bottom: 10% ;
+        right: 10%;
+        font-size: 1rem;
+      color:rgb(21, 21, 41);
+        border: none;
+    
+    }
+     
+    .button-class {
+        width: 30%;
+        height: 25px;
+        border: none;
+        outline: none;
+       }
+
+    button {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(15, 15, 56);
+        color: blanchedalmond;
+        font-family: 'Dancing Script', cursive;
+        font-size: 16px;
+        border-radius: 12px;
+        
+     
+    }
+
+
+
+   
+}
